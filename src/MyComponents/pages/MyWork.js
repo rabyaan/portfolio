@@ -4,15 +4,15 @@ import soonImg from '../../images/soon.svg'
 
 
 
-function GoBackWithRefresh(event) {
-    if ('referrer' in document) {
-        window.location = document.referrer;
-        /* OR */
-        //location.replace(document.referrer);
-    } else {
-        window.history.back();
-    }
-}
+// function GoBackWithRefresh(event) {
+//     if ('referrer' in document) {
+//         window.location = document.referrer;
+//         /* OR */
+//         //location.replace(document.referrer);
+//     } else {
+//         window.history.back();
+//     }
+// }
 
 
 export default function Work() {
