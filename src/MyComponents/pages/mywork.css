@@ -1,0 +1,78 @@
+.soon{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+@media screen and (max-width: 480px) {.soon{
+    height: 80vh;
+  }}
+
+
+
+.soon-img{
+    width: 21vw;
+    height: 21vw;
+}
+
+@media screen and (max-width: 480px) {.soon-img{
+    width: 60vw;
+    height: 60vw;
+  }}
+  
+
+.soon-h1{
+    font-family: fk-screamer;
+    font-size: 5vw;
+    padding: 0.6vw 0;
+}
+
+
+@media screen and (max-width: 480px) {.soon-h1{
+ font-size: 10vw;
+  }}
+
+
+.soon-p{
+    font-family: fk-grostek;
+    font-size: 1.2vw;
+    padding: 0.6vw 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {.soon-p{
+    font-size: 3vw;
+    font-family: fk-grostek;
+    padding: 2vw 4vw;
+     }}
+
+
+.soon-btn{
+border: none;
+outline: none;
+background: #5054d6;
+padding: 1vw 2.2vw;
+margin-top: 1vw;
+border-radius: 1vw;
+}
+
+@media screen and (max-width: 480px) {.soon-btn{
+    padding: 2vw 6.2vw;
+    margin-top: 1vw;
+    border-radius: 1vw;
+     }}
+
+
+.soon-btn a{
+text-decoration: none;
+font-family: poppins;
+font-size: 1.1vw;
+color: white;
+}
+@media screen and (max-width: 480px) {.soon-btn a{
+    font-size: 2.6vw;
+     }}

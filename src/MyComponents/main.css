@@ -1,0 +1,298 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+  padding: 1.1vw 2.5vw 0.8vw 2vw; 
+  margin-bottom: -1vw;
+  align-items: center;
+  border-bottom: 0.1px solid rgba(255, 255, 255, 0.507);
+}
+
+
+@media screen and (max-width: 480px) {
+  .header{
+    padding: 0.1vw 4vw 1.4vw 4vw; 
+
+  }
+}
+
+
+
+
+.logo{
+  font-size: 2.5vw;
+
+  z-index: 600; position: relative
+}
+
+@media screen and (max-width: 480px) {
+  .logo{
+    font-size: 4.6vw;
+
+  }
+}
+
+
+
+
+.icon{margin-top: 0.1vw;
+  font-size: 1.1vw;
+  font-family: fk-grostek-bold;
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+  .icon{
+    font-size: 3vw;
+  }
+}
+
+.icon:hover{
+  font-size: 1.4vw;
+}
+
+
+.icon-upwork{
+  font-size: 1.4vw;
+  padding: 0.3vw 0 0 0;
+  margin-right: 0.5vw;
+}
+
+
+@media screen and (max-width: 480px) {
+  .icon-upwork{
+    padding: 01vw 0 0 0;
+    font-size: 3.6vw;
+  }
+}
+
+.icon-upwork:hover{
+  font-size: 1.6vw;
+}
+
+
+
+.download-btn{
+  color: white;
+  padding-right: 1vw;
+}
+
+.download-btn:hover .icon-arrow{
+  font-size: 2vw !important;
+}
+
+
+
+.icon-arrow{
+  font-size: 1.8vw;
+  padding: 0.4vw 0 0.4vw 0;
+  position: absolute;
+  top: 0.9vw;
+  right: 1.4vw; 
+  margin-right: 0vw !important;
+}
+
+
+
+
+
+@media screen and (max-width: 480px) {
+  .icon-arrow{
+    font-size: 2.9vw;
+    padding: 0.4vw 0 0.4vw 0;
+    position: absolute;
+    top: 3.74vw;
+    right: 1.8vw; 
+
+  }
+}
+
+.header-links{
+  display: flex;
+  gap: 1.5vw;
+  align-items: center;
+
+
+}
+
+
+@media screen and (max-width: 480px) {
+  .header-links{
+gap: 2.2vw;
+  }
+}
+
+
+
+
+
+.header-links a,Link{
+  font-family: fk-grostek-bold;
+  color: white;
+  font-size: 0.99vw;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+  .header-links a,Link{
+font-size: 2vw;
+  }
+}
+
+
+.header-links a:hover{
+  font-size: 1vw;
+}
+
+
+
+
+
+
+
+/* .download-btn::after{
+  content: url('https://api.iconify.design/akar-icons/arrow-up-right.svg?color=white');
+  position: relative;
+  z-index: 1000;
+  font-size: 1vw;
+  
+} */
+
+
+.header-div-1{
+  width: 50%;
+
+}
+.header-div-2{
+  display: flex;
+  gap: 2vw;
+  z-index: 300;
+
+}
+
+
+
+
+
+/* main section */
+main {
+    padding: 0vw 0 10vw 0;
+    position: relative;
+    z-index: 30;
+    /* background: linear-gradient(360deg, #F2994A 0%, #F2C94C 100%); */
+    /* background: linear-gradient(180deg, #EB5757 0%, #000000 100%); */
+    /* background: linear-gradient(180deg, #BDC3C7 0%, #2C3E50 100%); */
+    /* background: linear-gradient(360deg, rgb(117, 51, 124) 21%, hsla(186, 100%, 50%, 1) 100%); */
+  
+    /* background: linear-gradient(180deg, #6f00ff 40%, #33006f 100%); */
+    background: linear-gradient(180deg, #6a55ea 40%, #082567 100%);
+    /* background: linear-gradient(360deg, #003D4D 0%, #00C996 100%); */
+  }
+  
+  @media screen and (max-width: 480px) {
+    main {
+      padding: 3vw 0 10vw 0;
+      padding-bottom: 50px;
+
+    }
+  }
+  
+  /* main 1st heading */
+  .main-heading {
+    padding-top: 0  ;
+    font-family: fk-screamer;
+    font-size: 21.4vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+  }
+  
+  @media screen and (max-width: 480px) {
+    .main-heading {
+      font-size: 19.5vw;
+    }
+  }
+  
+  /* main 2nd heading */
+  .heading {
+    font-family: fk-screamer;
+    text-align: center;
+    font-size: 5.1vw;
+    line-height: 0.85;
+    overflow-y: hidden;
+    text-transform: uppercase;
+    margin-top: 20vw;
+    color: white;
+
+  }
+  
+  @media screen and (max-width: 480px) {
+    .heading {
+      font-size: 9vw;
+      padding-top: 40vw;
+    }
+  }
+  
+  /* hero section image */
+  .main-img {
+    display: flex;
+    justify-content: center;
+    width: 81vw;
+    margin-top: -30vw;
+    margin-left: 10.5vw;
+    z-index: 0;
+    position: relative;
+
+  }
+  
+  @media screen and (max-width: 480px) {
+    .main-img {
+      width: 105vw;
+      margin-top: -9vw;
+      margin-left: -2.8vw;
+    }
+  }
+
+
+
+  /* cursor */
+  .cursor{
+    background-color:#ffd42d;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 900;
+
+    pointer-events: none;
+  }
+
+
+  .App{
+    cursor: none;
+  }
+
+  .App a{
+    cursor: none !important;
+  }
+
+  @media screen and (max-width: 480px) {
+    .cursor{
+  display: none;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    .cursor{
+  display: none;
+    }
+  }
+
+  @media screen and (max-width: 1024px) {
+    .cursor{
+  display: none;
+    }
+  }

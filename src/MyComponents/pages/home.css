@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "fk-screamer";
+    src: url(../../fonts/FKScreamerLegacy-Upright.woff2);
+  }
+  
+  @font-face {
+    font-family: "fk-grostek";
+    src: url(../../fonts/FKGroteskTrial-Regular.otf);
+  }
+  
+  @font-face {
+    font-family: "fk-grostek-bold";
+    src: url(../../fonts/FKGroteskTrial-Black.otf);
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+  
+  
+  
+  
+    * {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+    }
+  
+    body{
+      position: relative;
+      z-index: 3000;
+      background: white !important;
+    }
+  
+  
+    body::-webkit-scrollbar {
+      width: 6px;              /* width of the entire scrollbar */
+    }
+    body::-webkit-scrollbar-track {
+      background: white;        /* color of the tracking area */
+    }
+    body::-webkit-scrollbar-thumb {
+      background-color: #5b54df;    /* color of the scroll thumb */
+      border-radius: 10px;       /* roundness of the scroll thumb */
+       /* creates padding around scroll thumb */
+    }
