@@ -20,7 +20,7 @@ export default function Work() {
 
         <>
     <div className='soon'>
-        <img className='soon-img' src={soonImg} />
+        <img className='soon-img' src={soonImg} alt="soon" />
         <h1 className='soon-h1'>COMING SOON..</h1>
         <p className='soon-p'>We are currently developing this page, which will be available very soon.</p>
         <button className='soon-btn'><a href="/" onclick="GoBackWithRefresh();return false;">GO BACK</a></button>

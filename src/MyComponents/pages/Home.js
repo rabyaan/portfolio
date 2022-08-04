@@ -1,14 +1,20 @@
-import React from 'react';
+import React, {Suspense} from 'react';
 import './home.css'
-import Main from '../Main';
-import Solutions from '../Solutions';
-import Expect from '../Expect';
-import About from '../About';
-import Tesimonial from '../Testimonial';
-import ContactForm from '../ContactForm';
-import Social from '../Social';
+// import Main from '../Main';
+// import Solutions from '../Solutions';
+// import Expect from '../Expect';
+// import About from '../About';
+// import Testimonial from '../Testimonial';
+// import ContactForm from '../ContactForm';
+// import Social from '../Social';
 
-
+const Main = React.lazy(() => import('../Main'));
+const Solutions = React.lazy(() => import('../Solutions'));
+const Expect = React.lazy(() => import('../Expect'));
+const About = React.lazy(() => import('../About'));
+const Testimonial = React.lazy(() => import('../Testimonial'))
+const ContactForm = React.lazy(() => import('../ContactForm'))
+const Social = React.lazy(() => import('../Social'))
 
 
 
@@ -117,17 +123,23 @@ window.onload = function(){
 
 };
 
+
+
+
+
 export default function Home() {
 
     return(
         <>
-    <Main />
-    <About />
-    <Solutions />
-    <Expect />
-    <Tesimonial />
-    <ContactForm />
-    <Social />
+      <Suspense fallback={<div>Loading...</div>}>
+        <Main />
+        <About />
+        <Solutions />
+        <Expect />
+        <Testimonial />
+        <ContactForm />
+        <Social />
+      </Suspense>
         </>
     )
 
